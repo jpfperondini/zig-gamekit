@@ -2,7 +2,7 @@ const std = @import("std");
 const sdl = @import("sdl");
 const gk = @import("gamekit.zig");
 const math = gk.math;
-const input_types = @import("input_types.zig");
+pub const input_types = @import("input_types.zig");
 pub usingnamespace input_types;
 
 const FixedList = gk.utils.FixedList;

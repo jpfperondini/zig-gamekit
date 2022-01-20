@@ -3,13 +3,14 @@ const sdl = @import("sdl");
 const imgui = @import("imgui");
 const imgui_impl = @import("imgui/implementation.zig");
 
+pub const input_types = @import("input_types.zig");
 pub const renderkit = @import("renderkit");
 pub const utils = @import("utils/utils.zig");
 pub const math = @import("math/math.zig");
 
 const Gfx = @import("gfx.zig").Gfx;
 const Window = @import("window.zig").Window;
-const WindowConfig = @import("window.zig").WindowConfig;
+pub const WindowConfig = @import("window.zig").WindowConfig;
 const Input = @import("input.zig").Input;
 const Time = @import("time.zig").Time;
 
